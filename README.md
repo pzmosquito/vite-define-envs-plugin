@@ -6,6 +6,11 @@ Embed environment variables as global constants for local js files.
 
 [read more about process.env](https://nodejs.org/dist/latest-v8.x/docs/api/process.html#process_process_env)
 
+## installation
+```sh
+npm install --save-dev vite-define-envs-plugin
+```
+
 ## arguments
 - `keys` - array of keys to read from `process.env`.
 - `scope` - scope of the global constants. Default to "process.env" if not set.
