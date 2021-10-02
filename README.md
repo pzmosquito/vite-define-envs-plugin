@@ -2,7 +2,7 @@
 Embed environment variables as global constants for local js files.
 
 ## how it works
-`vite-define-envs-plugin` will read from `process.env` and define specific environment variables as global constants.
+`vite-define-envs-plugin` will read from Node's `process.env` and define specific environment variables as global constants for client JavaScript.
 
 [read more about process.env](https://nodejs.org/dist/latest-v8.x/docs/api/process.html#process_process_env)
 
