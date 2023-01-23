@@ -1,6 +1,6 @@
 {
   "name": "vite-define-envs-plugin",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Embed environment variables as global constants for local js files.",
   "keywords": [
     "vite",
@@ -28,6 +28,6 @@
   "homepage": "https://github.com/pzmosquito/vite-define-envs-plugin#readme",
   "main": "index.js",
   "peerDependencies": {
-    "vite": "^2 || ^3"
+    "vite": "^2 || ^3 || ^4"
   }
 }
