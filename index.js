@@ -5,7 +5,7 @@
  * @param {Array} keys - keys to be defined from process.env scope.
  * @param {String} scope - scope of the global constants. Default to "process.env".
  */
-module.exports = function viteDefineEnvs(keys, scope = "process.env") {
+export default function viteDefineEnvs(keys, scope = "process.env") {
     if (!Array.isArray(keys)) {
         throw new Error("'keys' parameter must be an array.");
     }
