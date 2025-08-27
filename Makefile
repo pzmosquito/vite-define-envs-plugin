@@ -2,7 +2,7 @@ container := vite-define-envs-plugin
 
 .PHONY: dev
 dev:
-	docker run -t -i -v `pwd`:/usr/app -w /usr/app --rm --name $(container) node:18-alpine
+	docker run -t -i -v `pwd`:/usr/app -w /usr/app --rm --name $(container) node:22-alpine
 
 .PHONY: shell
 shell:
